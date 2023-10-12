@@ -1,0 +1,38 @@
+* {
+
+    background-color: aqua;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: justify;
+}
+
+h1 {
+    text-align: left;
+    font-family: Comic Sans Ms;
+    font-size: 60px;
+    color: darkblue
+}
+
+h4 {
+    text-align: right;
+    font-style: oblique;
+}
+
+.h3 {
+    color: black:
+}
+
+.p1 {
+    color: chocolate;
+}
+
+.paragraf1 {
+    text-align: justify;
+}
+
+.paragraf2 {
+    text-align: justify;
+}
+
+.link {
+    color: white;
+}

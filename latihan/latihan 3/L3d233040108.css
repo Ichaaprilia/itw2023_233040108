@@ -1,0 +1,54 @@
+* {
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: justify;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Comic Sans Ms;
+    font-size: 60px;
+    color: darkblue
+}
+
+h4 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.h3 {
+    text-align: center;
+    color: black:
+}
+
+.p1 {
+    text-align: center;
+    color: chocolate;
+}
+
+.p2 {
+    color: darkblue
+}
+
+.paragraf1 {
+    text-align: justify;
+}
+
+.paragraf2 {
+    text-align: justify;
+}
+
+.link {
+    color: red;
+}
+
+.hy {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    background-image: url(gambar/bg1.png/background.png);
+    background-repeat: repeat-x
+}
