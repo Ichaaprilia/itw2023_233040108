@@ -1,0 +1,32 @@
+Body {
+    Width: 100%;
+    Height: 100vh;
+    Font-family: sans-serif;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+}
+
+.container {
+    Width: 600px;
+    Text-align: center;
+    Position: Absolute;
+    Border: 1 px solid #333;
+}
+
+.header {
+    Background: #333;
+    Color: #ddd;
+    Padding: 25px;
+}
+
+.main {
+    Padding: 25px;
+    Text-align: start;
+}
+
+.footer {
+    Background: #000;
+    Color: #fff;
+    Padding: 25px;
+}
