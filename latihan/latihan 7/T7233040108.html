@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Louis Vuitton</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Louis Vuitton Shop</h2>
+                <p class="sub-heading">New Bag</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price"> IDR 40.5 jt </h4>
+                <p class="item">CarryAll</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price"> IDR 25.5 jt</h4>
+                <p class="item">Pochette Metis</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Louis Vuitton</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">GalLery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🏢</div>
+                <h3>Louis Vuitton</h3>
+                <p>is a French luxury goods company founded in 1854 by
+                    Louis Vuitton or commonly abbreviated as LV.
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon">👜</div>
+                <h3>Monogram LV</h3>
+                <p>Monograms are installed in almost all of its products,
+                    ranging from luxury suitcases, shoes, watches, bags and more.
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon">💰</div>
+                <h3>Sale</h3>
+                <p>LV sells its products through its own boutiques,
+                    department store outlets, and through its website
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon">📢</div>
+                <h3>Announcement</h3>
+                <p>Every purchase of two bags will get a 30% discount</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/201x201" alt="">
+            <img src="https://source.unsplash.com/random/202x202" alt="">
+            <img src="https://source.unsplash.com/random/203x203" alt="">
+            <img src="https://source.unsplash.com/random/204x204" alt="">
+            <img src="https://source.unsplash.com/random/205x205" alt="">
+            <img src="https://source.unsplash.com/random/206x206" alt="">
+            <img src="https://source.unsplash.com/random/207x207" alt="">
+            <img src="https://source.unsplash.com/random/208x208" alt="">
+            <img src="https://source.unsplash.com/random/209x209" alt="">
+            <img src="https://source.unsplash.com/random/2010x2010" alt="">
+
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+
+</html>
